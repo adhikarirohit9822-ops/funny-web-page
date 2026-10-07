@@ -8,7 +8,7 @@ I believe in **learning by building** and improving a little every day. 🚀
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍💻 About Me.
 ..
 * 👤 **Name:** Rohit Bikrant
 * 🎂 **Age:** 17

@@ -16,7 +16,7 @@ I believe in **learning by building** and improving a little every day. 🚀
 * 🌱 **Currently learning:** HTML, CSS, JavaScript, Python
 * 🔐 **Exploring:** Cybersecurity & Linux
 * 🛠️ **Love:** Building small projects and experimenting with new ideas
-* 🎯 **Goal:** Become a skilled developer
+* 🎯 **Goal:** Become a skilled developer,
 
 ---
 

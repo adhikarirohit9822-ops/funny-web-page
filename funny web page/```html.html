@@ -1,0 +1,441 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MAA _KA LADLA _BIGAR GIYA😂</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      min-height: 100vh;
+      padding: 25px 15px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      margin-bottom: 25px;
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 16px;
+    }
+
+    .search {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 15px;
+      font-size: 16px;
+      outline: none;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 20px;
+      margin-bottom: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .text {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      border: none;
+      padding: 11px 17px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .copy {
+      background: #111;
+      color: white;
+    }
+
+    .share {
+      background: #25d366;
+      color: white;
+    }
+
+    button:hover {
+      transform: scale(1.04);
+    }
+
+    #message {
+      position: fixed;
+      bottom: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #111;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 30px;
+      display: none;
+    }
+
+    .add-box {
+      background: rgba(255,255,255,0.95);
+      padding: 20px;
+      border-radius: 18px;
+      margin-top: 25px;
+    }
+
+    .add-box textarea {
+      width: 100%;
+      height: 90px;
+      resize: none;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .add-btn {
+      background: #ff4d6d;
+      color: white;
+      width: 100%;
+    }
+
+    @media(max-width:600px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .text {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>😂 MAA KA LADLA BIGAR GIYA</h1>
+    <p>Copy it. Share it. Make someone laugh! 🤣</p>
+  </header>
+
+  <input
+    type="text"
+    class="search"
+    id="search"
+    placeholder="🔍 Search funny lines..."
+    onkeyup="searchLines()"
+  >
+
+  <div id="lines">
+
+    <div class="card">
+      <div class="text">😂 My brain has too many tabs open.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="text">😎 I don't need Google. My girlfriend knows everything.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="text">🤣 Life is short. Smile while you still have teeth.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    
+    <div class="card">
+      <div class="text">🤣 Gelchod gilheri ke gile gile gota .</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    
+    <div class="card">
+      <div class="text"> Haka baka krishna🧑🏿‍🩰 chhaka 🤣 .</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    
+    <div class="card">
+      <div class="text"> Muthii ka pani 💦 shreekant tufani 🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <div class="text"> Doodh ki khir krishna bawaser  🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <div class="text"> Mummy papa ki masti krishna aye jabadasti 🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <div class="text"> Hawa chle far farr Khushi chudi ghar ghar 🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <div class="text"> Condom ka hadsa_krishna badshah 🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+  <div class="card">
+      <div class="text"> hawa ka parinda krishna darinda  🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <div class="text"> Mut ka bulbula krishna nikla chulbula 🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="text"> () ka bal krishna bawal 🤣.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <div class="text">😴 I need a six-month vacation, twice a year.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="text">🗿 Me pretending I understand the conversation.</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="text">❤️ "Are you WiFi? Because I'm feeling a connection." 😂</div>
+      <div class="buttons">
+        <button class="copy" onclick="copyText(this)">📋 Copy</button>
+        <button class="share" onclick="shareText(this)">📤 Share</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="add-box">
+    <h2>➕ Add Your Own</h2>
+    <br>
+
+    <textarea id="newText"
+      placeholder="Write your funny dialogue here... 😂"></textarea>
+
+    <button class="add-btn" onclick="addLine()">
+      Add Funny Line 🚀
+    </button>
+  </div>
+
+</div>
+
+<div id="message">Copied! ✅</div>
+
+<script>
+
+function showMessage(text) {
+  const message = document.getElementById("message");
+
+  message.innerText = text;
+  message.style.display = "block";
+
+  setTimeout(() => {
+    message.style.display = "none";
+  }, 1800);
+}
+
+
+function copyText(button) {
+
+  const text = button
+    .parentElement
+    .parentElement
+    .querySelector(".text")
+    .innerText;
+
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      showMessage("Copied! 📋😂");
+    })
+    .catch(() => {
+      showMessage("Copy failed ❌");
+    });
+}
+
+
+function shareText(button) {
+
+  const text = button
+    .parentElement
+    .parentElement
+    .querySelector(".text")
+    .innerText;
+
+  if (navigator.share) {
+
+    navigator.share({
+      title: "Funny Line 😂",
+      text: text
+    });
+
+  } else {
+
+    navigator.clipboard.writeText(text);
+    showMessage("Copied! Share it anywhere 📋");
+  }
+}
+
+
+function addLine() {
+
+  const input = document.getElementById("newText");
+  const text = input.value.trim();
+
+  if (text === "") {
+    showMessage("Write something first 😂");
+    return;
+  }
+
+  const card = document.createElement("div");
+  card.className = "card";
+
+  card.innerHTML = `
+    <div class="text">😂 ${escapeHTML(text)}</div>
+
+    <div class="buttons">
+      <button class="copy" onclick="copyText(this)">
+        📋 Copy
+      </button>
+
+      <button class="share" onclick="shareText(this)">
+        📤 Share
+      </button>
+    </div>
+  `;
+
+  document.getElementById("lines").prepend(card);
+
+  input.value = "";
+
+  showMessage("Added! 🚀😂");
+}
+
+
+function searchLines() {
+
+  const search = document
+    .getElementById("search")
+    .value
+    .toLowerCase();
+
+  const cards = document.querySelectorAll(".card");
+
+  cards.forEach(card => {
+
+    const text = card
+      .querySelector(".text")
+      .innerText
+      .toLowerCase();
+
+    card.style.display =
+      text.includes(search) ? "block" : "none";
+  });
+}
+
+
+function escapeHTML(text) {
+
+  const div = document.createElement("div");
+  div.innerText = text;
+
+  return div.innerHTML;
+}
+
+</script>
+
+</body>
+</html>
+```
